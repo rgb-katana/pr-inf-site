@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import styles from './page.module.css';
 
 export default function Destinations() {
@@ -7,10 +8,10 @@ export default function Destinations() {
       <header className={styles.header}>
         <h1>Travel Tips</h1>
         <nav className={styles.nav}>
-          <a href="/">Главная</a>
-          <a href="/tips">Советы</a>
-          <a href="/facts">Факты</a>
-          <a href="/destinations">Направления</a>
+          <Link href="/">Главная</Link>
+          <Link href="/tips">Советы</Link>
+          <Link href="/facts">Факты</Link>
+          <Link href="/destinations">Направления</Link>
         </nav>
       </header>
 
